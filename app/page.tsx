@@ -1,5 +1,5 @@
 "use client";
-import { ChatDemo } from "@/components/chat-demo";
+// import { ChatDemo } from "@/components/chat-demo";
 import { getAIResponse } from "@/server/ai";
 import { useState } from 'react';
 

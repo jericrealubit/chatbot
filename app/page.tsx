@@ -1,5 +1,4 @@
 "use client";
-// import { ChatDemo } from "@/components/chat-demo";
 import { getAIResponse } from "@/server/ai";
 import { useState } from 'react';
 
@@ -27,12 +26,9 @@ export default function Home() {
         onChange={(e) => setPrompt(e.target.value)}
       />
       <button onClick={handleClick}>Submit</button>
-      {response && <p>{response}</p>}
-   
+      {response && <p>{response}</p>}      
     </main>
-//    <div className="border rounded-md p-4">
-//    <ChatDemo />
-//  </div> 
+
   );  
 }
 
